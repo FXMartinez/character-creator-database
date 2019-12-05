@@ -1,3 +1,5 @@
 class Party < ApplicationRecord
-    has many :characters
+
+    has_many :characters
+
 end

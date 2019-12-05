@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :equipment
+  resources :items
   resources :parties
   namespace :api do
     namespace :v1 do

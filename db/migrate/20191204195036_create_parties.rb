@@ -3,7 +3,8 @@ class CreateParties < ActiveRecord::Migration[6.0]
     create_table :parties do |t|
 
       t.timestamps
-      t.character_id :integer
+      t.string :name
+      t.integer :character_id
 
     end
   end

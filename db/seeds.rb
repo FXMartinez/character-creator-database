@@ -33,6 +33,10 @@ Yojimbo = {
     gold: 9001
 }
 
+# krew = {
+#     name: 'The Krew'
+# }
+
 Character.create(Flexington)
 Character.create(Yojimbo)
 
